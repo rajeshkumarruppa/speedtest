@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-color: #dac0ff;
+    background-size: cover;
+    padding: 30px;
+
+}
+
+.main-heading {
+    color: #690cb0;
+    font-family: "Roboto";
+    font-size: clamp(3.75rem, 4.6875rem + -3vw, 3rem);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.main-para {
+    color: #3e4c59;
+    font-family: "Roboto";
+    padding: 10px;
+    font-size: clamp(0.9375rem, -1.6406rem + 8.25vw, 3rem);
+}
+
+.clock-image {
+    height: 100px;
+    width: 80px;
+}
+
+.seconds {
+    color: #3e4c59;
+    font-family: "Roboto";
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.numbers-heading {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 35px;
+}
+
+.inner-card {
+    border-radius: 20px;
+    background-color: #f3eaff;
+    margin: 20px;
+    padding: 30px;
+    background-size: cover;
+}
+
+.inner-card-one {
+    background-color: white;
+    margin: 10px;
+    height: 40vh;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.inner-para {
+    color: #3e4c59;
+    font-size: clamp(1.25rem, -0.9375rem + 7vw, 3rem);
+    font-family: "Roboto";
+}
+
+.submit-Btn {
+    background-color: #690cb0;
+    color: white;
+    border-radius: 5px;
+    width: 15%;
+}
+
+.reset-Btn {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 15%;
+
+}
+
+.font-size {
+    font-size: clamp(1.25rem, -0.9375rem + 7vw, 3rem);
+}
